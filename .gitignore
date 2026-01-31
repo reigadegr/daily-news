@@ -1,0 +1,12 @@
+# mdBook 构建输出
+book/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
