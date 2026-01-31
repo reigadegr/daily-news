@@ -1,0 +1,28 @@
+[book]
+title = "每日新闻汇总"
+authors = ["reigadegr"]
+language = "zh-CN"
+multilingual = false
+src = "src"
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/reigadegr/daily-news"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/reigadegr/daily-news/edit/main/{path}"
+site-url = "https://reigadegr.github.io/daily-news/"
+cname = "daily-news.reigadegr.com"
+
+[output.html.search]
+enable = true
+search-results-limit = 30
+search-use-boolean-and = true
+
+[output.html.fold]
+enable = true
+level = 0
