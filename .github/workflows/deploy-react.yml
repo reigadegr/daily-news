@@ -47,7 +47,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
-    if: github.ref == 'refs/heads/react'
+    # 只在 react 分支推送时部署，不在 PR 中部署
+    if: github.ref == 'refs/heads/react' && github.event_name == 'push'
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
