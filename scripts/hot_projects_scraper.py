@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 热门代码库收集器
-从 GitHub, Gitee, GitCode, AtomicGit 收集热门好玩的项目
+从 GitHub 收集热门好玩的项目
 """
 
 import os
@@ -9,7 +9,6 @@ import json
 import requests
 from datetime import datetime, timedelta
 from typing import List, Dict, Optional
-import re
 import time
 
 class ProjectScraper:
@@ -107,7 +106,7 @@ class GitHubScraper(ProjectScraper):
             'q': query,
             'sort': 'stars',
             'order': 'desc',
-            'per_page': 20
+            'per_page': 30
         }
 
         try:
@@ -152,193 +151,23 @@ class GitHubScraper(ProjectScraper):
         return date.strftime("%Y-%m-%d")
 
 
-class GiteeScraper(ProjectScraper):
-    """Gitee 热门项目收集器"""
-
-    def __init__(self, output_dir: str):
-        super().__init__(output_dir)
-        self.base_url = "https://gitee.com/api/v5"
-
-    def scrape_trending(self, language: str = "") -> List[Dict]:
-        """
-        收集 Gitee 热门项目
-        language: 编程语言（空字符串表示全部）
-        """
-        print(f"\n📊 正在收集 Gitee 热门项目...")
-
-        # Gitee API 搜索热门仓库
-        url = f"{self.base_url}/search/repositories"
-        params = {
-            'q': f'language:{language}' if language else '',
-            'sort': 'stars_count',
-            'order': 'desc',
-            'page': 1,
-            'per_page': 20
-        }
-
-        try:
-            response = requests.get(url, params=params, timeout=10)
-            response.raise_for_status()
-            data = response.json()
-
-            projects = []
-            for item in data:
-                project = {
-                    'name': item['name'],
-                    'author': item['author']['name'],
-                    'description': item['description'] or '暂无描述',
-                    'url': item['html_url'],
-                    'stars': item['stargazers_count'],
-                    'language': item.get('language', ''),
-                    'tags': [],
-                    'forks': item['forks_count']
-                }
-                projects.append(project)
-
-            print(f"✓ Gitee: 找到 {len(projects)} 个热门项目")
-            return projects
-
-        except Exception as e:
-            print(f"✗ Gitee: 收集失败 - {e}")
-            return []
-
-
-class GitCodeScraper(ProjectScraper):
-    """GitCode 热门项目收集器"""
-
-    def __init__(self, output_dir: str):
-        super().__init__(output_dir)
-        self.base_url = "https://api.gitcode.com/api/v1"
-
-    def scrape_trending(self, language: str = "") -> List[Dict]:
-        """
-        收集 GitCode 热门项目
-        """
-        print(f"\n📊 正在收集 GitCode 热门项目...")
-
-        # GitCode API 搜索热门仓库
-        url = f"{self.base_url}/search/repositories"
-        params = {
-            'q': '',
-            'sort': 'stars',
-            'order': 'desc',
-            'page': 1,
-            'per_page': 20
-        }
-
-        try:
-            response = requests.get(url, params=params, timeout=10)
-            response.raise_for_status()
-            data = response.json()
-
-            projects = []
-            for item in data.get('data', []):
-                project = {
-                    'name': item['name'],
-                    'author': item['owner']['login'],
-                    'description': item['description'] or '暂无描述',
-                    'url': item['html_url'],
-                    'stars': item['stargazers_count'],
-                    'language': item.get('language', ''),
-                    'tags': [],
-                    'forks': item['forks_count']
-                }
-                projects.append(project)
-
-            print(f"✓ GitCode: 找到 {len(projects)} 个热门项目")
-            return projects
-
-        except Exception as e:
-            print(f"✗ GitCode: 收集失败 - {e}")
-            # 返回模拟数据（因为 GitCode API 可能不可用）
-            return self._get_mock_data("GitCode")
-
-    def _get_mock_data(self, platform: str) -> List[Dict]:
-        """获取模拟数据（用于 API 不可用的情况）"""
-        return [
-            {
-                'name': f'{platform}-example-project-1',
-                'author': 'example-user',
-                'description': f'{platform} 平台的热门示例项目 1',
-                'url': f'https://{platform.lower()}.com/example/project1',
-                'stars': 9999,
-                'language': 'Python',
-                'tags': ['热门', '示例'],
-                'forks': 1234
-            },
-            {
-                'name': f'{platform}-example-project-2',
-                'author': 'another-user',
-                'description': f'{platform} 平台的热门示例项目 2',
-                'url': f'https://{platform.lower()}.com/example/project2',
-                'stars': 8888,
-                'language': 'JavaScript',
-                'tags': ['前端', '热门'],
-                'forks': 567
-            }
-        ]
-
-
-class AtomicGitScraper(ProjectScraper):
-    """AtomicGit 热门项目收集器"""
-
-    def __init__(self, output_dir: str):
-        super().__init__(output_dir)
-        self.base_url = "https://atomicgit.com/api"
-
-    def scrape_trending(self, language: str = "") -> List[Dict]:
-        """
-        收集 AtomicGit 热门项目
-        """
-        print(f"\n📊 正在收集 AtomicGit 热门项目...")
-
-        # AtomicGit 可能没有公开 API，使用模拟数据
-        print(f"⚠ AtomicGit: 使用模拟数据（API 不可用）")
-        return self._get_mock_data("AtomicGit")
-
-    def _get_mock_data(self, platform: str) -> List[Dict]:
-        """获取模拟数据"""
-        return [
-            {
-                'name': f'{platform}-example-project-1',
-                'author': 'example-user',
-                'description': f'{platform} 平台的热门示例项目 1',
-                'url': f'https://{platform.lower()}.com/example/project1',
-                'stars': 7777,
-                'language': 'Rust',
-                'tags': ['系统', '热门'],
-                'forks': 890
-            },
-            {
-                'name': f'{platform}-example-project-2',
-                'author': 'another-user',
-                'description': f'{platform} 平台的热门示例项目 2',
-                'url': f'https://{platform.lower()}.com/example/project2',
-                'stars': 6666,
-                'language': 'Go',
-                'tags': ['后端', '热门'],
-                'forks': 456
-            }
-        ]
-
-
 def main():
     """主函数"""
     print("=" * 60)
     print("🔥 热门代码库收集器")
     print("=" * 60)
 
-    # 设置输出目录
-    project_dir = "/home/reigadegr/桌面/project/daily-news/src/projects"
+    # 设置输出目录（支持本地和 GitHub Actions 环境）
+    if os.environ.get('GITHUB_WORKSPACE'):
+        # GitHub Actions 环境
+        project_dir = os.path.join(os.environ['GITHUB_WORKSPACE'], 'src', 'projects')
+    else:
+        # 本地环境
+        project_dir = "/home/reigadegr/桌面/project/daily-news/src/projects"
     os.makedirs(project_dir, exist_ok=True)
 
-    # 收集各个平台的热门项目
-    scrapers = [
-        GitHubScraper(project_dir),
-        GiteeScraper(project_dir),
-        GitCodeScraper(project_dir),
-        AtomicGitScraper(project_dir)
-    ]
+    # 只收集 GitHub 的热门项目
+    scrapers = [GitHubScraper(project_dir)]
 
     all_projects = {}
 
