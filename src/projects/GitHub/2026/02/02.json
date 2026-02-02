@@ -1,0 +1,227 @@
+{
+  "date": "2026-02-02",
+  "platform": "GitHub",
+  "count": 20,
+  "projects": [
+    {
+      "name": "Leave_Form_Management",
+      "author": "Abinaya-Siva",
+      "description": "This system simplifies leave tracking by replacing manual paperwork with a digital workflow. Users can easily submit leave requests, admins manage approvals efficiently, and all records are securely stored in the database, ensuring transparency, faster responses, and organized leave management.",
+      "url": "https://github.com/Abinaya-Siva/Leave_Form_Management",
+      "stars": 58,
+      "language": "JavaScript",
+      "tags": [],
+      "forks": 0,
+      "created_at": "2026-02-02T06:39:50Z"
+    },
+    {
+      "name": "ddwrap",
+      "author": "HarderLemonade",
+      "description": "DDWrap provides a graphical interface around `dd`, written in Python and using the Qt toolkit.",
+      "url": "https://github.com/HarderLemonade/ddwrap",
+      "stars": 33,
+      "language": "Python",
+      "tags": [],
+      "forks": 1,
+      "created_at": "2026-02-02T00:28:07Z"
+    },
+    {
+      "name": "Study-Planner",
+      "author": "KavinRagavinyaa22",
+      "description": "暂无描述",
+      "url": "https://github.com/KavinRagavinyaa22/Study-Planner",
+      "stars": 23,
+      "language": null,
+      "tags": [],
+      "forks": 0,
+      "created_at": "2026-02-02T10:50:06Z"
+    },
+    {
+      "name": "skills",
+      "author": "PsiACE",
+      "description": "A personal collection of agent skills reflecting my preferences and practices.",
+      "url": "https://github.com/PsiACE/skills",
+      "stars": 19,
+      "language": null,
+      "tags": [],
+      "forks": 0,
+      "created_at": "2026-02-02T08:54:43Z"
+    },
+    {
+      "name": "InstaCloud",
+      "author": "depreciating",
+      "description": "Cloud Storage using Instagram.",
+      "url": "https://github.com/depreciating/InstaCloud",
+      "stars": 19,
+      "language": "Python",
+      "tags": [],
+      "forks": 1,
+      "created_at": "2026-02-02T09:58:57Z"
+    },
+    {
+      "name": "virtual_thrift-store-",
+      "author": "janani0616",
+      "description": "暂无描述",
+      "url": "https://github.com/janani0616/virtual_thrift-store-",
+      "stars": 19,
+      "language": "JavaScript",
+      "tags": [],
+      "forks": 0,
+      "created_at": "2026-02-02T05:22:10Z"
+    },
+    {
+      "name": "vector",
+      "author": "davepl",
+      "description": "暂无描述",
+      "url": "https://github.com/davepl/vector",
+      "stars": 18,
+      "language": "C++",
+      "tags": [],
+      "forks": 1,
+      "created_at": "2026-02-02T00:33:36Z"
+    },
+    {
+      "name": "qwen-tts2api",
+      "author": "aahl",
+      "description": "🗣️ Qwen TTS to OpenAI Speech API",
+      "url": "https://github.com/aahl/qwen-tts2api",
+      "stars": 17,
+      "language": "Python",
+      "tags": [],
+      "forks": 1,
+      "created_at": "2026-02-02T05:09:50Z"
+    },
+    {
+      "name": "wechat-daily-report-skill",
+      "author": "ADVISORYDZ",
+      "description": "暂无描述",
+      "url": "https://github.com/ADVISORYDZ/wechat-daily-report-skill",
+      "stars": 17,
+      "language": "HTML",
+      "tags": [],
+      "forks": 0,
+      "created_at": "2026-02-02T08:02:46Z"
+    },
+    {
+      "name": "cat-dev-kit",
+      "author": "MuchuCAT",
+      "description": "Just a chill cat ",
+      "url": "https://github.com/MuchuCAT/cat-dev-kit",
+      "stars": 16,
+      "language": null,
+      "tags": [],
+      "forks": 0,
+      "created_at": "2026-02-02T09:46:39Z"
+    },
+    {
+      "name": "powerautomate-mcp-docs",
+      "author": "rcb0727",
+      "description": "暂无描述",
+      "url": "https://github.com/rcb0727/powerautomate-mcp-docs",
+      "stars": 16,
+      "language": "PowerShell",
+      "tags": [],
+      "forks": 7,
+      "created_at": "2026-02-02T02:52:29Z"
+    },
+    {
+      "name": "clawguard",
+      "author": "JaydenBeard",
+      "description": "Activity monitor and security dashboard for Clawdbot - real-time analytics, risk analysis, and kill switch",
+      "url": "https://github.com/JaydenBeard/clawguard",
+      "stars": 15,
+      "language": "JavaScript",
+      "tags": [],
+      "forks": 0,
+      "created_at": "2026-02-02T05:59:25Z"
+    },
+    {
+      "name": "claude-sage",
+      "author": "telagod",
+      "description": "⚙️ 机械神教·铸造贤者 - Claude Code 个性化配置方案",
+      "url": "https://github.com/telagod/claude-sage",
+      "stars": 15,
+      "language": "Python",
+      "tags": [],
+      "forks": 0,
+      "created_at": "2026-02-02T06:15:41Z"
+    },
+    {
+      "name": "WMPFDebugger-mac",
+      "author": "linguo2625469",
+      "description": "WMPFDebugger macOS版支持intel和m系列芯片",
+      "url": "https://github.com/linguo2625469/WMPFDebugger-mac",
+      "stars": 15,
+      "language": "JavaScript",
+      "tags": [],
+      "forks": 4,
+      "created_at": "2026-02-02T06:05:57Z"
+    },
+    {
+      "name": "blabla",
+      "author": "Keys0123",
+      "description": "暂无描述",
+      "url": "https://github.com/Keys0123/blabla",
+      "stars": 15,
+      "language": null,
+      "tags": [],
+      "forks": 0,
+      "created_at": "2026-02-02T05:17:43Z"
+    },
+    {
+      "name": "E-commercewebsite",
+      "author": "Priyatharas",
+      "description": "暂无描述",
+      "url": "https://github.com/Priyatharas/E-commercewebsite",
+      "stars": 14,
+      "language": null,
+      "tags": [],
+      "forks": 0,
+      "created_at": "2026-02-02T05:38:50Z"
+    },
+    {
+      "name": "Aula_PythonFebbario",
+      "author": "MaSTERmIKK",
+      "description": "Aula_PythonFebbario",
+      "url": "https://github.com/MaSTERmIKK/Aula_PythonFebbario",
+      "stars": 13,
+      "language": "Python",
+      "tags": [],
+      "forks": 4,
+      "created_at": "2026-02-02T09:56:13Z"
+    },
+    {
+      "name": "Forms",
+      "author": "anuvarthini2111-hash",
+      "description": "暂无描述",
+      "url": "https://github.com/anuvarthini2111-hash/Forms",
+      "stars": 12,
+      "language": "HTML",
+      "tags": [],
+      "forks": 0,
+      "created_at": "2026-02-02T14:10:40Z"
+    },
+    {
+      "name": "ai-content-policy",
+      "author": "pluginmd",
+      "description": "暂无描述",
+      "url": "https://github.com/pluginmd/ai-content-policy",
+      "stars": 12,
+      "language": null,
+      "tags": [],
+      "forks": 7,
+      "created_at": "2026-02-02T02:48:49Z"
+    },
+    {
+      "name": "Project",
+      "author": "arulgayathri12-ctrl",
+      "description": "暂无描述",
+      "url": "https://github.com/arulgayathri12-ctrl/Project",
+      "stars": 11,
+      "language": null,
+      "tags": [],
+      "forks": 0,
+      "created_at": "2026-02-02T03:24:07Z"
+    }
+  ]
+}

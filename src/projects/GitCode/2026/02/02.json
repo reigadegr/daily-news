@@ -1,0 +1,33 @@
+{
+  "date": "2026-02-02",
+  "platform": "GitCode",
+  "count": 2,
+  "projects": [
+    {
+      "name": "GitCode-example-project-1",
+      "author": "example-user",
+      "description": "GitCode 平台的热门示例项目 1",
+      "url": "https://gitcode.com/example/project1",
+      "stars": 9999,
+      "language": "Python",
+      "tags": [
+        "热门",
+        "示例"
+      ],
+      "forks": 1234
+    },
+    {
+      "name": "GitCode-example-project-2",
+      "author": "another-user",
+      "description": "GitCode 平台的热门示例项目 2",
+      "url": "https://gitcode.com/example/project2",
+      "stars": 8888,
+      "language": "JavaScript",
+      "tags": [
+        "前端",
+        "热门"
+      ],
+      "forks": 567
+    }
+  ]
+}

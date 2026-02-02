@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  schedule:
+    # 每天北京时间 09:00 (UTC 01:00) 运行
+    - cron: '0 1 * * *'
   workflow_dispatch:
 
 permissions:
@@ -16,8 +19,40 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Scrape hot projects
+        run: |
+          python3 scripts/hot_projects_scraper.py
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git diff --staged --quiet || git commit -m "📊 Update hot projects [skip ci]"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
   build:
     runs-on: ubuntu-latest
+    needs: scrape
     steps:
       - name: Checkout
         uses: actions/checkout@v4

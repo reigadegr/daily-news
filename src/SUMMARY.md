@@ -1,25 +1,10 @@
-# 每日新闻汇总
+# 热门项目汇总
 
 [首页](./README.md)
 
----
+# 热门项目
 
-# 2026年
-
-## 2026年2月
-
-
-
-- [2月概览](./2026/02/index.md)
-- [2月1日](./2026/02/01.md)
-
-## 2026年1月
-
-- [1月概览](./2026/01/index.md)
-- [1月31日](./2026/01/31.md)
-
----
-
-# 关于
-
-[使用说明](./ABOUT.md)
+- [GitHub 热门项目](./projects/github/2026/SUMMARY.md)
+- [Gitee 热门项目](./projects/gitee/2026/SUMMARY.md)
+- [GitCode 热门项目](./projects/gitcode/2026/SUMMARY.md)
+- [AtomicGit 热门项目](./projects/atomicgit/2026/SUMMARY.md)
