@@ -4,4 +4,4 @@
 
 # 热门项目
 
-- [GitHub 热门项目](./projects/github/2026/SUMMARY.md)
+- [GitHub 热门项目](./projects/GitHub/2026/SUMMARY.md)
