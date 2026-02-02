@@ -1,7 +1,7 @@
 {
   "date": "2026-02-02",
   "platform": "GitHub",
-  "count": 20,
+  "count": 30,
   "projects": [
     {
       "name": "Leave_Form_Management",
@@ -30,44 +30,77 @@
       "author": "KavinRagavinyaa22",
       "description": "暂无描述",
       "url": "https://github.com/KavinRagavinyaa22/Study-Planner",
-      "stars": 23,
+      "stars": 25,
       "language": null,
       "tags": [],
       "forks": 0,
       "created_at": "2026-02-02T10:50:06Z"
     },
     {
-      "name": "skills",
-      "author": "PsiACE",
-      "description": "A personal collection of agent skills reflecting my preferences and practices.",
-      "url": "https://github.com/PsiACE/skills",
-      "stars": 19,
-      "language": null,
-      "tags": [],
-      "forks": 0,
-      "created_at": "2026-02-02T08:54:43Z"
-    },
-    {
       "name": "InstaCloud",
       "author": "depreciating",
       "description": "Cloud Storage using Instagram.",
       "url": "https://github.com/depreciating/InstaCloud",
-      "stars": 19,
+      "stars": 23,
       "language": "Python",
       "tags": [],
       "forks": 1,
       "created_at": "2026-02-02T09:58:57Z"
     },
     {
+      "name": "skills",
+      "author": "PsiACE",
+      "description": "A personal collection of agent skills reflecting my preferences and practices.",
+      "url": "https://github.com/PsiACE/skills",
+      "stars": 21,
+      "language": null,
+      "tags": [],
+      "forks": 0,
+      "created_at": "2026-02-02T08:54:43Z"
+    },
+    {
       "name": "virtual_thrift-store-",
       "author": "janani0616",
       "description": "暂无描述",
       "url": "https://github.com/janani0616/virtual_thrift-store-",
-      "stars": 19,
+      "stars": 20,
       "language": "JavaScript",
       "tags": [],
       "forks": 0,
       "created_at": "2026-02-02T05:22:10Z"
+    },
+    {
+      "name": "Forms",
+      "author": "anuvarthini2111-hash",
+      "description": "暂无描述",
+      "url": "https://github.com/anuvarthini2111-hash/Forms",
+      "stars": 19,
+      "language": "HTML",
+      "tags": [],
+      "forks": 0,
+      "created_at": "2026-02-02T14:10:40Z"
+    },
+    {
+      "name": "qwen-tts2api",
+      "author": "aahl",
+      "description": "🗣️ Qwen TTS to OpenAI Speech API",
+      "url": "https://github.com/aahl/qwen-tts2api",
+      "stars": 18,
+      "language": "Python",
+      "tags": [],
+      "forks": 1,
+      "created_at": "2026-02-02T05:09:50Z"
+    },
+    {
+      "name": "wechat-daily-report-skill",
+      "author": "ADVISORYDZ",
+      "description": "暂无描述",
+      "url": "https://github.com/ADVISORYDZ/wechat-daily-report-skill",
+      "stars": 18,
+      "language": "HTML",
+      "tags": [],
+      "forks": 0,
+      "created_at": "2026-02-02T08:02:46Z"
     },
     {
       "name": "vector",
@@ -81,26 +114,48 @@
       "created_at": "2026-02-02T00:33:36Z"
     },
     {
-      "name": "qwen-tts2api",
-      "author": "aahl",
-      "description": "🗣️ Qwen TTS to OpenAI Speech API",
-      "url": "https://github.com/aahl/qwen-tts2api",
-      "stars": 17,
-      "language": "Python",
+      "name": "powerautomate-mcp-docs",
+      "author": "rcb0727",
+      "description": "暂无描述",
+      "url": "https://github.com/rcb0727/powerautomate-mcp-docs",
+      "stars": 18,
+      "language": "PowerShell",
       "tags": [],
-      "forks": 1,
-      "created_at": "2026-02-02T05:09:50Z"
+      "forks": 7,
+      "created_at": "2026-02-02T02:52:29Z"
     },
     {
-      "name": "wechat-daily-report-skill",
-      "author": "ADVISORYDZ",
+      "name": "redstone-oracles-monorepo",
+      "author": "redstone-finance",
       "description": "暂无描述",
-      "url": "https://github.com/ADVISORYDZ/wechat-daily-report-skill",
+      "url": "https://github.com/redstone-finance/redstone-oracles-monorepo",
       "stars": 17,
-      "language": "HTML",
+      "language": "TypeScript",
       "tags": [],
       "forks": 0,
-      "created_at": "2026-02-02T08:02:46Z"
+      "created_at": "2026-02-02T14:36:39Z"
+    },
+    {
+      "name": "E-commercewebsite",
+      "author": "Priyatharas",
+      "description": "暂无描述",
+      "url": "https://github.com/Priyatharas/E-commercewebsite",
+      "stars": 17,
+      "language": null,
+      "tags": [],
+      "forks": 0,
+      "created_at": "2026-02-02T05:38:50Z"
+    },
+    {
+      "name": "clawguard",
+      "author": "JaydenBeard",
+      "description": "Activity monitor and security dashboard for Clawdbot - real-time analytics, risk analysis, and kill switch",
+      "url": "https://github.com/JaydenBeard/clawguard",
+      "stars": 16,
+      "language": "JavaScript",
+      "tags": [],
+      "forks": 0,
+      "created_at": "2026-02-02T05:59:25Z"
     },
     {
       "name": "cat-dev-kit",
@@ -114,26 +169,26 @@
       "created_at": "2026-02-02T09:46:39Z"
     },
     {
-      "name": "powerautomate-mcp-docs",
-      "author": "rcb0727",
-      "description": "暂无描述",
-      "url": "https://github.com/rcb0727/powerautomate-mcp-docs",
+      "name": "serverless-ai-cloud-optimizer",
+      "author": "tharun-1365",
+      "description": "An AI-powered, serverless cloud optimization system that uses event-driven intelligence to predict risk and optimize cloud resources without always-on servers.",
+      "url": "https://github.com/tharun-1365/serverless-ai-cloud-optimizer",
       "stars": 16,
-      "language": "PowerShell",
-      "tags": [],
-      "forks": 7,
-      "created_at": "2026-02-02T02:52:29Z"
-    },
-    {
-      "name": "clawguard",
-      "author": "JaydenBeard",
-      "description": "Activity monitor and security dashboard for Clawdbot - real-time analytics, risk analysis, and kill switch",
-      "url": "https://github.com/JaydenBeard/clawguard",
-      "stars": 15,
-      "language": "JavaScript",
+      "language": "Python",
       "tags": [],
       "forks": 0,
-      "created_at": "2026-02-02T05:59:25Z"
+      "created_at": "2026-02-02T14:53:58Z"
+    },
+    {
+      "name": "Numbers_Guessing_Game",
+      "author": "MadhanPrasathT",
+      "description": "暂无描述",
+      "url": "https://github.com/MadhanPrasathT/Numbers_Guessing_Game",
+      "stars": 16,
+      "language": "Java",
+      "tags": [],
+      "forks": 0,
+      "created_at": "2026-02-02T14:36:57Z"
     },
     {
       "name": "claude-sage",
@@ -154,7 +209,7 @@
       "stars": 15,
       "language": "JavaScript",
       "tags": [],
-      "forks": 4,
+      "forks": 6,
       "created_at": "2026-02-02T06:05:57Z"
     },
     {
@@ -169,17 +224,6 @@
       "created_at": "2026-02-02T05:17:43Z"
     },
     {
-      "name": "E-commercewebsite",
-      "author": "Priyatharas",
-      "description": "暂无描述",
-      "url": "https://github.com/Priyatharas/E-commercewebsite",
-      "stars": 14,
-      "language": null,
-      "tags": [],
-      "forks": 0,
-      "created_at": "2026-02-02T05:38:50Z"
-    },
-    {
       "name": "Aula_PythonFebbario",
       "author": "MaSTERmIKK",
       "description": "Aula_PythonFebbario",
@@ -189,17 +233,6 @@
       "tags": [],
       "forks": 4,
       "created_at": "2026-02-02T09:56:13Z"
-    },
-    {
-      "name": "Forms",
-      "author": "anuvarthini2111-hash",
-      "description": "暂无描述",
-      "url": "https://github.com/anuvarthini2111-hash/Forms",
-      "stars": 12,
-      "language": "HTML",
-      "tags": [],
-      "forks": 0,
-      "created_at": "2026-02-02T14:10:40Z"
     },
     {
       "name": "ai-content-policy",
@@ -222,6 +255,83 @@
       "tags": [],
       "forks": 0,
       "created_at": "2026-02-02T03:24:07Z"
+    },
+    {
+      "name": "PEST-DECTECTION-AND-MITIGATION",
+      "author": "Harininivatha",
+      "description": "AI-based computer vision system for real-time agricultural pest detection using YOLOv5-Nano, YOLOv8-Nano, and YOLOv11-Nano. Trained on the IP102 dataset with strong augmentation for robust field performance. Outputs pest bounding boxes, labels, and confidence scores.",
+      "url": "https://github.com/Harininivatha/PEST-DECTECTION-AND-MITIGATION",
+      "stars": 11,
+      "language": "Jupyter Notebook",
+      "tags": [],
+      "forks": 0,
+      "created_at": "2026-02-02T12:36:36Z"
+    },
+    {
+      "name": "kpm-backtrace",
+      "author": "lidongyooo",
+      "description": "Traceback the user stack in kernel",
+      "url": "https://github.com/lidongyooo/kpm-backtrace",
+      "stars": 11,
+      "language": "C",
+      "tags": [],
+      "forks": 4,
+      "created_at": "2026-02-02T07:30:30Z"
+    },
+    {
+      "name": "Video-Analysis-and-Transcription-Model",
+      "author": "vijayanandana25",
+      "description": "暂无描述",
+      "url": "https://github.com/vijayanandana25/Video-Analysis-and-Transcription-Model",
+      "stars": 11,
+      "language": "Python",
+      "tags": [],
+      "forks": 0,
+      "created_at": "2026-02-02T10:32:05Z"
+    },
+    {
+      "name": "fasthttp",
+      "author": "ndugram",
+      "description": "⚡ Async HTTP client with expressive logging and route-based requests",
+      "url": "https://github.com/ndugram/fasthttp",
+      "stars": 11,
+      "language": "Python",
+      "tags": [],
+      "forks": 0,
+      "created_at": "2026-02-02T02:56:24Z"
+    },
+    {
+      "name": "openecho",
+      "author": "xyskywalker",
+      "description": "OpenEcho (回声) 是一个轻量级开源 Agent，让任何人都能轻松与Moltbook交互。",
+      "url": "https://github.com/xyskywalker/openecho",
+      "stars": 10,
+      "language": "TypeScript",
+      "tags": [],
+      "forks": 1,
+      "created_at": "2026-02-02T02:41:21Z"
+    },
+    {
+      "name": "imagine2api",
+      "author": "Bailing258",
+      "description": "grok imagine2api",
+      "url": "https://github.com/Bailing258/imagine2api",
+      "stars": 10,
+      "language": "Python",
+      "tags": [],
+      "forks": 7,
+      "created_at": "2026-02-02T11:14:31Z"
+    },
+    {
+      "name": "Smart_Fire_Detection_Evacuation_System",
+      "author": "Kumaraguru-eng",
+      "description": "Smart Fire Detection and Evacuation Assistant is an ESP32-based IoT system that detects fire, smoke, gas leakage, and abnormal temperature early. It alerts occupants, controls ventilation and exits, estimates trapped people, and sends email alerts to fire services for quick response.",
+      "url": "https://github.com/Kumaraguru-eng/Smart_Fire_Detection_Evacuation_System",
+      "stars": 10,
+      "language": "Python",
+      "tags": [],
+      "forks": 0,
+      "created_at": "2026-02-02T12:47:04Z"
     }
   ]
 }
